@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #272d4e;
+  text-decoration: none;
+}
+
+._btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 37px 55px;
+  color: #272d4e;
+  font-weight: 500;
+}
+header .left {
+  display: flex;
+  align-items: center;
+}
+header .left .logo {
+  width: 169px;
+  margin-right: 144px;
+  margin-bottom: -8px;
+}
+header .left nav ul {
+  display: flex;
+  align-items: center;
+}
+header .left nav ul li {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 38px;
+  color: #272d4e !important;
+}
+header .right {
+  display: flex;
+  align-items: center;
+}
+header .right #lang {
+  margin-right: 24px;
+  outline: none;
+  border: none;
+  color: #272d4e;
+}
+header .right .header__login__btn {
+  margin-right: 24px;
+}
+header .right .header__login__btn {
+  color: #272d4e;
+}
+header .right .header__getstarted__btn {
+  padding: 13px 14px;
+  background-color: #7854f7;
+  color: white;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */

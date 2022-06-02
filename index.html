@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>i18n vanilla JS</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <div class="logo">
+          <img src="./assets/logo.png" alt="logo" />
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a class="lng-sell" href="">Sell</a>
+            </li>
+            <li>
+              <a class="lng-marketplace" href="">Marketplace</a>
+            </li>
+            <li>
+              <a class="lng-community" href="">Community</a>
+            </li>
+            <li>
+              <a class="lng-develop" href="">Develop</a>
+            </li>
+            <li>
+              <a class="lng-resources" href="">Resources</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="right">
+        <select name="lang" id="lang"></select>
+        <button class="lng-login _btn header__login__btn">Log In</button>
+        <button class="lng-signup _btn header__getstarted__btn">
+          Get Started
+        </button>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/i18next/21.8.5/i18next.min.js"
+      integrity="sha512-qU3aeiPaElTewGTC/ONaRa69Uxi6vdKIRP+4uSRfHf3uuj0enHJ0L64175CV/Bpc9vTzsiXmQxgIeFf8X9MRfw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./langs/langs.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
